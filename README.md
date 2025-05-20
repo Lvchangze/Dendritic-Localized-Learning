@@ -16,10 +16,6 @@ cd Dendritic-Localized-Learning
 pip install -r requirements.txt
 ```
 
-If you would like to make changes and run your experiments, use:
-
-`pip install -e .`
-
 ## Training
 Taking the MLP_Model running on the MNIST dataset as an example:
 
@@ -42,7 +38,7 @@ You can change the parser as you want.
 
 ## Datasets
 
-The CIFAR-10, CIFAR-100, SVHN, FashionMNIST and MNIST datasets are provided through `torchvision.datasets` and can be automatically downloaded and loaded via the corresponding interfaces in the `dataset.py` file. Simply set `download=True` and specify the data storage path to use them.
+The CIFAR-10, CIFAR-100, SVHN, FashionMNIST, and MNIST datasets are provided through `torchvision.datasets` and can be automatically downloaded and loaded via the corresponding interfaces in the `dataset.py` file. Simply set `download=True` and specify the data storage path to use them.
 TinyImageNet can be downloaded from  (http://cs231n.stanford.edu/tiny-imagenet-200.zip). Due to its unique data structure, the dataset requires preprocessing via `tiny-imagenet_process.py` before use. Notably, the test set does not contain ground truth labels, so the validation set is typically used as the test set in experiments.
 The Sst2 and Subj datasets are available for download from [Kaggle](www.kaggle.com) and are tokenized with GloVe 6B 300d embeddings. All data processing scripts are included in `dataset.py`.
 
@@ -74,4 +70,4 @@ Dendritic-Localized-Learning
 │   │   │   ...
 ```
 ## Acknowledgement
-This repo is built upon (PredictiveCodingBackprop)[https://github.com/BerenMillidge/PredictiveCodingBackprop]. We greatly thank @BerenMillidge and @Tommaso Salvatori for their initial contribution and for their assistance in answering questions and providing guidance during the code implementation.
+This repo is built upon (PredictiveCodingBackprop)[https://github.com/BerenMillidge/PredictiveCodingBackprop]. We sincerely thank @BerenMillidge for the initial contribution and thank @TommasoSalvatori for his kind instructions on the code.
