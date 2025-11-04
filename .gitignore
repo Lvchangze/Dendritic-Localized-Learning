@@ -168,7 +168,6 @@ command.txt
 /tiny-imagenet-200
 command.txt
 
-settings.yaml
 /fashionmnist_data
 /mnist_data
 /rnn_data

@@ -1,0 +1,22 @@
+sst2:
+  channel: 1
+  input_size: 25
+  input_size_c: 300
+  num_class: 2
+
+mnist:
+  channel: 1
+  input_size: 28
+  num_class: 10
+
+subj:
+  channel: 1
+  input_size: 35
+  input_size_c: 300
+  num_class: 2
+
+mr:
+  channel: 1
+  input_size: 35
+  input_size_c: 300
+  num_class: 2
